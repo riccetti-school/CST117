@@ -28,6 +28,7 @@ namespace Exercise3
             }
             catch (Exception)
             {
+                textBox2.Text = "Invalid value";
             }
         }
     }
