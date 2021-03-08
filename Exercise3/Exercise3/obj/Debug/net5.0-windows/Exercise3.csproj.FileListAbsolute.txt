@@ -5,6 +5,7 @@ C:\repos\CST117\Exercise3\Exercise3\bin\Debug\net5.0-windows\Exercise3.runtimeco
 C:\repos\CST117\Exercise3\Exercise3\bin\Debug\net5.0-windows\Exercise3.dll
 C:\repos\CST117\Exercise3\Exercise3\bin\Debug\net5.0-windows\ref\Exercise3.dll
 C:\repos\CST117\Exercise3\Exercise3\bin\Debug\net5.0-windows\Exercise3.pdb
+C:\repos\CST117\Exercise3\Exercise3\obj\Debug\net5.0-windows\Exercise3.csprojAssemblyReference.cache
 C:\repos\CST117\Exercise3\Exercise3\obj\Debug\net5.0-windows\Exercise3.Exercise3.resources
 C:\repos\CST117\Exercise3\Exercise3\obj\Debug\net5.0-windows\Exercise3.csproj.GenerateResource.cache
 C:\repos\CST117\Exercise3\Exercise3\obj\Debug\net5.0-windows\Exercise3.GeneratedMSBuildEditorConfig.editorconfig

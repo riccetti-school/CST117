@@ -1,0 +1,6 @@
+Inventory Item
+Int id
+String description
+String location
+Int quantity
+Bool onorder
