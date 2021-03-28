@@ -5,7 +5,6 @@ C:\repos\CST117\Milestone 2 CST 117\bin\Debug\net5.0\Milestone 2 CST 117.runtime
 C:\repos\CST117\Milestone 2 CST 117\bin\Debug\net5.0\Milestone 2 CST 117.dll
 C:\repos\CST117\Milestone 2 CST 117\bin\Debug\net5.0\ref\Milestone 2 CST 117.dll
 C:\repos\CST117\Milestone 2 CST 117\bin\Debug\net5.0\Milestone 2 CST 117.pdb
-C:\repos\CST117\Milestone 2 CST 117\obj\Debug\net5.0\Milestone 2 CST 117.csprojAssemblyReference.cache
 C:\repos\CST117\Milestone 2 CST 117\obj\Debug\net5.0\Milestone 2 CST 117.GeneratedMSBuildEditorConfig.editorconfig
 C:\repos\CST117\Milestone 2 CST 117\obj\Debug\net5.0\Milestone 2 CST 117.AssemblyInfoInputs.cache
 C:\repos\CST117\Milestone 2 CST 117\obj\Debug\net5.0\Milestone 2 CST 117.AssemblyInfo.cs
