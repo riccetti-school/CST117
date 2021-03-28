@@ -9,7 +9,7 @@ namespace Milestone_2_CST_117
     public class InventoryItem
     {
         // id of th item
-        public int Id { get; set; }
+        public Guid Id { get; internal set; }
 
         // how many of this item to a package
         public int PackageSize { get; set; }
@@ -26,15 +26,20 @@ namespace Milestone_2_CST_117
         // barcode value
         public string Barcode { get; set; }
 
-        // is this item damanged
+        // is this item damaged
         public bool Damaged { get; set; }
 
-        public bool Shipped { get; set; }
+        public bool Shipped { get; internal set; }
 
         // has this item shipped
         public void Ship(bool shipIt)
         {
             Shipped = shipIt;
+        }
+
+        public InventoryItem()
+        {
+            Id = Guid.NewGuid();
         }
     }
 }

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Milestone 2 CST 117/1.0.0": {
+        "runtime": {
+          "Milestone 2 CST 117.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Milestone 2 CST 117/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
