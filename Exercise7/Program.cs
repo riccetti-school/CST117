@@ -55,5 +55,36 @@ namespace Exercise7
 
             return j;
         }
+
+        static int[] Return50()
+        {
+            int[] k = new int[50];
+            for(int i=0;i<50;i++)
+            {
+                k[i] = i;
+            }
+            return k;
+        }
+
+        static bool Same(bool first, bool second)
+        {
+            return first && second;
+        }
+
+        static double Product(int first, double second)
+        {
+            return (double)(first + second);
+        }
+
+        static int TwoAverage(int[][] value)
+        {
+            int a = 0;
+            int v = value.GetLength(0);
+            int b = value.GetLength(1);
+            for (int x = 0; x < v; x++)
+                for (int y = 0; y < b; y++)
+                    a += value[x][y];
+            return (a) / (v + b);
+        }
     }
 }
