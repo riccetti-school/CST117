@@ -22,7 +22,7 @@ namespace Milestone_3_CST_117
             {
                 var l = items.Length + 1;
                 Array.Resize<InventoryItem>(ref items, l);
-                items[l-1] = i;
+                items[l - 1] = i;
             }
         }
 
@@ -37,7 +37,7 @@ namespace Milestone_3_CST_117
                 {
                     if (items[i].Id != id)
                     {
-                        temp[i-1] = items[i];
+                        temp[i - 1] = items[i];
                     }
                 }
 
