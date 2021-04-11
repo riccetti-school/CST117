@@ -9,7 +9,7 @@ namespace Milestone_3_CST_117
     public class InventoryManager
     {
 
-        private InventoryItem[] items = null;
+        public InventoryItem[] items = null;
 
         public void Add(InventoryItem i)
         {
@@ -23,16 +23,6 @@ namespace Milestone_3_CST_117
                 var l = items.Length + 1;
                 Array.Resize<InventoryItem>(ref items, l);
                 items[l-1] = i;
-                //InventoryItem[] temp = new InventoryItem[l + 1];
-                //for (int j = 0; j < l; j++)
-                //{
-                //    temp[j] = items[j];
-                //}
-
-                //temp[l + 1] = i;
-
-                //Array.Resize<InventoryItem>(ref items, l + 1);
-                //temp.CopyTo(items, 0);
             }
         }
 
@@ -47,11 +37,11 @@ namespace Milestone_3_CST_117
                 {
                     if (items[i].Id != id)
                     {
-                        temp[i] = items[i];
+                        temp[i-1] = items[i];
                     }
                 }
 
-                items = new InventoryItem[items.Length - 1];
+                Array.Resize<InventoryItem>(ref items, items.Length - 1);
                 temp.CopyTo(items, 0);
             }
 
@@ -74,8 +64,8 @@ namespace Milestone_3_CST_117
                     Console.WriteLine(items[i].ToString());
                     return;
                 }
-                Console.WriteLine($"Did not find {description} with a damage value of {damaged}");
             }
+            Console.WriteLine($"Did not find {description} with a damage value of {damaged}");
         }
 
     }

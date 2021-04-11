@@ -19,8 +19,25 @@ namespace Milestone_3_CST_117
             m.Add(new InventoryItem() { Description = "Seven", Damaged = false });
             m.Add(new InventoryItem() { Description = "Eight", Damaged = true });
 
+            Console.WriteLine();
+            Console.WriteLine("Initial list");
             // display what we have
             m.Display();
+
+            // let remove one
+            var id = m.items[0].Id;
+            m.Remove(id);
+
+            Console.WriteLine();
+            Console.WriteLine("After Remove()");
+            // display new list
+            m.Display();
+
+
+            Console.WriteLine();
+            Console.WriteLine("Searching for 'Six' and Damanged: 'false'");
+            m.Search("Six", false);
+
         }
     }
 }
