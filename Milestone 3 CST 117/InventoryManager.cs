@@ -20,17 +20,19 @@ namespace Milestone_3_CST_117
             }
             else
             {
-                var l = items.Length;
-                InventoryItem[] temp = new InventoryItem[l + 1];
-                for (int j = 0; j < l; j++)
-                {
-                    temp[j] = items[j];
-                }
+                var l = items.Length + 1;
+                Array.Resize<InventoryItem>(ref items, l);
+                items[l-1] = i;
+                //InventoryItem[] temp = new InventoryItem[l + 1];
+                //for (int j = 0; j < l; j++)
+                //{
+                //    temp[j] = items[j];
+                //}
 
-                temp[l + 1] = i;
+                //temp[l + 1] = i;
 
-                items = new InventoryItem[l + 1];
-                temp.CopyTo(items, 0);
+                //Array.Resize<InventoryItem>(ref items, l + 1);
+                //temp.CopyTo(items, 0);
             }
         }
 

@@ -1,0 +1,16 @@
+C:\repos\CST117\Milestone 3 CST 117\bin\Debug\net5.0\Milestone 3 CST 117.exe
+C:\repos\CST117\Milestone 3 CST 117\bin\Debug\net5.0\Milestone 3 CST 117.deps.json
+C:\repos\CST117\Milestone 3 CST 117\bin\Debug\net5.0\Milestone 3 CST 117.runtimeconfig.json
+C:\repos\CST117\Milestone 3 CST 117\bin\Debug\net5.0\Milestone 3 CST 117.runtimeconfig.dev.json
+C:\repos\CST117\Milestone 3 CST 117\bin\Debug\net5.0\Milestone 3 CST 117.dll
+C:\repos\CST117\Milestone 3 CST 117\bin\Debug\net5.0\ref\Milestone 3 CST 117.dll
+C:\repos\CST117\Milestone 3 CST 117\bin\Debug\net5.0\Milestone 3 CST 117.pdb
+C:\repos\CST117\Milestone 3 CST 117\obj\Debug\net5.0\Milestone 3 CST 117.csprojAssemblyReference.cache
+C:\repos\CST117\Milestone 3 CST 117\obj\Debug\net5.0\Milestone 3 CST 117.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\CST117\Milestone 3 CST 117\obj\Debug\net5.0\Milestone 3 CST 117.AssemblyInfoInputs.cache
+C:\repos\CST117\Milestone 3 CST 117\obj\Debug\net5.0\Milestone 3 CST 117.AssemblyInfo.cs
+C:\repos\CST117\Milestone 3 CST 117\obj\Debug\net5.0\Milestone 3 CST 117.csproj.CoreCompileInputs.cache
+C:\repos\CST117\Milestone 3 CST 117\obj\Debug\net5.0\Milestone 3 CST 117.dll
+C:\repos\CST117\Milestone 3 CST 117\obj\Debug\net5.0\ref\Milestone 3 CST 117.dll
+C:\repos\CST117\Milestone 3 CST 117\obj\Debug\net5.0\Milestone 3 CST 117.pdb
+C:\repos\CST117\Milestone 3 CST 117\obj\Debug\net5.0\Milestone 3 CST 117.genruntimeconfig.cache
