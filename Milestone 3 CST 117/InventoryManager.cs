@@ -13,7 +13,7 @@ namespace Milestone_3_CST_117
 
         public void Add(InventoryItem i)
         {
-            if(items == null)
+            if (items == null)
             {
                 items = new InventoryItem[1];
                 items[0] = i;
@@ -22,7 +22,7 @@ namespace Milestone_3_CST_117
             {
                 var l = items.Length;
                 InventoryItem[] temp = new InventoryItem[l + 1];
-                for(int j=0;j<l;j++)
+                for (int j = 0; j < l; j++)
                 {
                     temp[j] = items[j];
                 }
@@ -38,25 +38,26 @@ namespace Milestone_3_CST_117
         {
             if (items == null) return;
 
-            if(items.Any(c=>c.Id.ToString() == id.ToString()))
+            if (items.Any(c => c.Id.ToString() == id.ToString()))
             {
                 InventoryItem[] temp = new InventoryItem[items.Length - 1];
-                for(int i=0;i<items.Length;i++)
+                for (int i = 0; i < items.Length; i++)
                 {
-                    if(items[i].Id != id)
+                    if (items[i].Id != id)
                     {
                         temp[i] = items[i];
                     }
                 }
 
                 items = new InventoryItem[items.Length - 1];
-                temp.CopyTo(items, 0);            }
+                temp.CopyTo(items, 0);
+            }
 
         }
 
         public void Display()
         {
-            for(int i=0;i<items.Length;i++)
+            for (int i = 0; i < items.Length; i++)
             {
                 Console.WriteLine(items[i].ToString());
             }
@@ -66,7 +67,7 @@ namespace Milestone_3_CST_117
         {
             for (int i = 0; i < items.Length; i++)
             {
-                if(items[i].Description == description && items[i].Damaged == damaged)
+                if (items[i].Description == description && items[i].Damaged == damaged)
                 {
                     Console.WriteLine(items[i].ToString());
                     return;
