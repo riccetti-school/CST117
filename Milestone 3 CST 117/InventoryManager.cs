@@ -62,9 +62,17 @@ namespace Milestone_3_CST_117
             }
         }
 
-        public void Search()
+        public void Search(string description, bool damaged)
         {
-
+            for (int i = 0; i < items.Length; i++)
+            {
+                if(items[i].Description == description && items[i].Damaged == damaged)
+                {
+                    Console.WriteLine(items[i].ToString());
+                    return;
+                }
+                Console.WriteLine($"Did not find {description} with a damage value of {damaged}");
+            }
         }
 
     }
